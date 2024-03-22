@@ -1,3 +1,9 @@
+:root {
+    --first-color: #212121;
+    --second-color: #757575;
+    --decorative-color: #2196F3;
+    --third-color: #FFFFFF;
+}
 a.a-logo {
 font-family: Raleway;
 font-size: 26px;
