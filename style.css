@@ -1,15 +1,161 @@
-.text-box h3 :first-of-type {
-    color: pink;
+a.a-logo {
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.03em;
+text-align: left;
+text-decoration: none;
+color:  #000000;
 }
-#greycolor {
-    color: grey;
+span.Ingridient {
+color: dodgerblue;
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.03em;
+text-align: left;
+text-decoration: none;
 }
-.text-box>div>p {
-    color: red;
+ul {
+list-style-type: none;
 }
-.text-box p:nth-of-type(3) {
-    color: green;
+#blue-text {
+color: #2196F3;
+text-decoration: none;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-align: left;
 }
-.yellow {
-    color: yellow;
+#buttons-header {
+color: #212121;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-align: left;
+text-decoration: none;
+}
+#buttons-header {
+color: #212121;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-align: left;
+text-decoration: none;
+}
+a.mail-header{
+color: #2196F3;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-align: left;
+text-decoration: none;
+}
+a.phone-header {
+color: #757575;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-align: left;
+text-decoration: none;
+}
+.decorative-button {
+width: 73px;
+height: 38px;
+top: 174px;
+left: 512px;
+gap: 0px;
+border-radius: 4px 0px 0px 0px;
+opacity: 0px;
+background-color: #2196F3;  
+color: #ffffff;
+border: none;
+}
+.container {
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0.03em;
+}
+button {
+width: 125px;
+height: 38px;
+left: 593px;
+border-radius: 4px 0px 0px 0px;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0.03em;
+text-align: center;
+border: none;
+}
+h3 {
+font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.06em;
+text-align: left;
+color: #212121;
+}
+p {
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #757575;
+}
+a.footer-logo {
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.03em;
+text-align: left;
+text-decoration: none;
+color:  #000000;
+}
+span.logo-custom {
+color: dodgerblue;
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.03em;
+text-align: left;
+text-decoration: none;
+}
+address > p.adress-p {
+color: #000000; /*!Тут так само не видно якщо білий колір*/
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+}
+address > p {
+    color: #000000; /*!Тут так само не видно якщо білий колір*/
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
 }
