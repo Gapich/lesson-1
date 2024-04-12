@@ -165,3 +165,21 @@ line-height: 24px;
 letter-spacing: 0.03em;
 text-align: left;
 }
+.header-ul {
+    display: flex;
+}
+.main-text {
+    display: flex;
+}
+.main-photos {
+    display: flex;
+}
+.our-team-photos {
+    display: flex;
+}
+.main-buttons {
+    display: flex;
+}
+.main-info {
+    display: flex;
+}
