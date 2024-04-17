@@ -3,6 +3,7 @@
     --second-color: #757575;
     --decorative-color: #2196F3;
     --third-color: #FFFFFF;
+    --fifth-color: #000000;
 }
 a.a-logo {
 font-family: Raleway;
@@ -12,7 +13,7 @@ line-height: 30px;
 letter-spacing: 0.03em;
 text-align: left;
 text-decoration: none;
-color:  #000000;
+color: var(--fifth-color);
 }
 span.blue-logo {
 color: dodgerblue;
@@ -28,7 +29,7 @@ ul {
 list-style-type: none;
 }
 #blue-text {
-color: #2196F3;
+color: var(--decorative-color);
 text-decoration: none;
 font-family: Roboto;
 font-size: 16px;
@@ -38,7 +39,7 @@ letter-spacing: 0.02em;
 text-align: left;
 }
 #buttons-header {
-color: #212121;
+color: var(--first-color);
 font-family: Roboto;
 font-size: 14px;
 font-weight: 500;
@@ -48,7 +49,7 @@ text-align: left;
 text-decoration: none;
 }
 #buttons-header {
-color: #212121;
+color: var(--first-color);
 font-family: Roboto;
 font-size: 14px;
 font-weight: 500;
@@ -58,7 +59,7 @@ text-align: left;
 text-decoration: none;
 }
 a.mail-header{
-color: #2196F3;
+color: var(--decorative-color);
 font-family: Roboto;
 font-size: 14px;
 font-weight: 500;
@@ -68,7 +69,7 @@ text-align: left;
 text-decoration: none;
 }
 a.phone-header {
-color: #757575;
+color: var(--second-color);
 font-family: Roboto;
 font-size: 14px;
 font-weight: 500;
@@ -85,8 +86,8 @@ left: 512px;
 gap: 0px;
 border-radius: 4px 0px 0px 0px;
 opacity: 0px;
-background-color: #2196F3;  
-color: #ffffff;
+background-color: var(--decorative-color);  
+color: var(--third-color);
 border: none;
 }
 .container {
@@ -116,7 +117,7 @@ font-weight: 700;
 line-height: 36px;
 letter-spacing: 0.06em;
 text-align: left;
-color: #212121;
+color: var(--first-color);
 }
 p {
 font-family: Roboto;
@@ -125,7 +126,7 @@ font-weight: 400;
 line-height: 30px;
 letter-spacing: 0.03em;
 text-align: left;
-color: #757575;
+color: var(--second-color);
 }
 a.footer-logo {
 font-family: Raleway;
@@ -135,7 +136,7 @@ line-height: 30px;
 letter-spacing: 0.03em;
 text-align: left;
 text-decoration: none;
-color:  #000000;
+color:  var(--fifth-color);
 }
 span.logo-custom {
 color: dodgerblue;
@@ -148,7 +149,7 @@ text-align: left;
 text-decoration: none;
 }
 address > p.adress-p {
-color: #000000; /*!Тут так само не видно якщо білий колір*/
+color: var(--fifth-color); /*!Тут так само не видно якщо білий колір*/
 font-family: Roboto;
 font-size: 14px;
 font-weight: 400;
@@ -157,7 +158,7 @@ letter-spacing: 0.03em;
 text-align: left;
 }
 address > p {
-    color: #000000; /*!Тут так само не видно якщо білий колір*/
+    color: var(--fifth-color); /*!Тут так само не видно якщо білий колір*/
 font-family: Roboto;
 font-size: 14px;
 font-weight: 400;
